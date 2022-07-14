@@ -18,7 +18,7 @@ function sumOfNumbers(arrayOfNumbers) {
     arrayOfNumbers.forEach((item) => sum += item);
     return sum;
 }
-// assignment.sumOfNumbers = sumOfNumbers;
+ assignment.sumOfNumbers = sumOfNumbers;
 
 /**
  * Challenge - 2
@@ -34,7 +34,7 @@ function countEvenNumbers(arrayOfNumbers) {
     arrayOfNumbers.forEach((item) => item % 2 === 0 ? totalEvenNumbers += 1 : totalEvenNumbers += 0)
     return totalEvenNumbers;
 }
-// assignment.countEvenNumbers = countEvenNumbers;
+ assignment.countEvenNumbers = countEvenNumbers;
 
 /**
  * Challenge - 3
